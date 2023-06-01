@@ -48,7 +48,7 @@ const EmpleadoList = () => {
   ];
   return (
     <div>
-      <ListGroup>
+      <ListGroup >
         {empleados.map((empleado, indice) => (
           <EmpleadoRow key={indice}empleado={empleado}></EmpleadoRow>
         ))}

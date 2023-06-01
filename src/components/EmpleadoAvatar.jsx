@@ -4,7 +4,7 @@ const EmpleadoAvatar = ({imagen}) => {
     return (
         <div>
               <section>
-            <img src={imagen} alt="img" className='avatar rounded-5'/>
+            <img src={imagen} alt="avatar" className='avatar rounded-5'/>
         </section>
         </div>
     );
